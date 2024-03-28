@@ -2,6 +2,8 @@ package net.multyfora.first_tutor;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.multyfora.first_tutor.item.ModItemGroups;
+import net.multyfora.first_tutor.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +13,7 @@ public class FirstTutor implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
