@@ -2,6 +2,7 @@ package net.multyfora.first_tutor;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.multyfora.first_tutor.block.ModBlocks;
 import net.multyfora.first_tutor.item.ModItemGroups;
 import net.multyfora.first_tutor.item.ModItems;
 import org.slf4j.Logger;
@@ -13,7 +14,10 @@ public class FirstTutor implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

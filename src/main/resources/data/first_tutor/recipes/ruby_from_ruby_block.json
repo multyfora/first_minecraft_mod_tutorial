@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "first_tutor:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "first_tutor:ruby",
+    "count": 9
+  }
+}
