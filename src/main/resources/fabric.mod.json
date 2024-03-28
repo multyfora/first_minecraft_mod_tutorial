@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "first_tutor",
+	"version": "${version}",
+	"name": "first_tutor",
+	"description": "This is tutorial mod so i can learn stuff",
+	"authors": [
+		"Multyfora"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/first_tutor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.multyfora.first_tutor.FirstTutor"
+		],
+		"client": [
+			"net.multyfora.first_tutor.FirstTutorClient"
+		],
+		"fabric-datagen": [
+			"net.multyfora.first_tutor.FirstTutorDataGenerator"
+		]
+	},
+	"mixins": [
+		"first_tutor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
