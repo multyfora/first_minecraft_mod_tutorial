@@ -5,5 +5,12 @@
   "block.first_tutor.ruby_block": "Block Of Ruby",
   "block.first_tutor.raw_ruby_block": "Block Of Raw Ruby",
 
+  "block.first_tutor.ruby_ore": "Ruby Ore",
+  "block.first_tutor.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.first_tutor.nether_ruby_ore": "Nether Ruby Ore",
+  "block.first_tutor.end_stone_ruby_ore": "End Stone Ruby Ore",
+
+
+
   "itemgroup.ruby": "Ruby Tutorial Group"
 }
