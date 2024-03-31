@@ -18,6 +18,8 @@
   "block.first_tutor.end_stone_ruby_ore": "End Stone Ruby Ore",
 
 
+  "tooltip.first_tutor.metal_detector": "Finds Valuable Ores",
+
 
   "itemgroup.ruby": "Ruby Tutorial Group"
 }

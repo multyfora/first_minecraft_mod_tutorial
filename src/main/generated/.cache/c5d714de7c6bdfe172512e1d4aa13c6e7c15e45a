@@ -1,0 +1,8 @@
+// 1.20.3	2024-04-01T01:59:29.7730067	first_tutor/Block Loot Tables
+d80b9761d89a27ddd0e9e2bb5786ef1d6f041947 data\first_tutor\loot_tables\blocks\nether_ruby_ore.json
+8ef5eb7910f815385b2348747f767a1fb938bcf9 data\first_tutor\loot_tables\blocks\ruby_ore.json
+710d00ae25bac3bf88181ec87caacaaf3dcc5c2a data\first_tutor\loot_tables\blocks\ruby_block.json
+36cf32bb68dffe347f83dd983f93c78f338bba6e data\first_tutor\loot_tables\blocks\end_stone_ruby_ore.json
+15f0d59123404b53a58fac84221f48969782cbfa data\first_tutor\loot_tables\blocks\sound_block.json
+9274c725345f80d500011d90bb998c742db6f9a7 data\first_tutor\loot_tables\blocks\raw_ruby_block.json
+55f229679834b303c103279a9cab1874e1c3089c data\first_tutor\loot_tables\blocks\deepslate_ruby_ore.json

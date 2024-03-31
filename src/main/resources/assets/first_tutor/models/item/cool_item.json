@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "first_tutor:item/cool_item"
-  }
-}

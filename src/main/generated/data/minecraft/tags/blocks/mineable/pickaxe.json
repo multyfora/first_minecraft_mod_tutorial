@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "first_tutor:raw_ruby_block",
+    "first_tutor:ruby_block",
+    "first_tutor:ruby_ore",
+    "first_tutor:nether_ruby_ore",
+    "first_tutor:end_stone_ruby_ore",
+    "first_tutor:deepslate_ruby_ore",
+    "first_tutor:sound_block"
+  ]
+}

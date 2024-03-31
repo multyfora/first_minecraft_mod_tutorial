@@ -1,0 +1,6 @@
+// 1.20.3	2024-04-01T01:59:29.7750012	first_tutor/Tags for minecraft:block
+a3fd5bc1c82f2424beb0e6ca5a823a81a269869f data\fabric\tags\blocks\needs_tool_level_4.json
+d45261bea1d5d9d3dd30cf64000c11ded7be5229 data\first_tutor\tags\blocks\metal_detector_detectable_blocks.json
+9f8a27a0746d02d1fed7f3c96fc8dc21a006ebcc data\minecraft\tags\blocks\mineable\pickaxe.json
+61d76fbc958051229c6df8caaef396c40db4a0c5 data\minecraft\tags\blocks\needs_stone_tool.json
+4f54c086ae86046e0ec19f7aeb6560f631a62405 data\minecraft\tags\blocks\needs_iron_tool.json
