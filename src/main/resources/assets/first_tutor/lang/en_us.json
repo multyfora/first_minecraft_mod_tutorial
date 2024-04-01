@@ -18,6 +18,19 @@
   "block.first_tutor.end_stone_ruby_ore": "End Stone Ruby Ore",
 
 
+
+  "block.first_tutor.ruby_stairs": "Ruby Stairs",
+  "block.first_tutor.ruby_slab": "Ruby Slab",
+  "block.first_tutor.ruby_button": "Ruby Button",
+  "block.first_tutor.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.first_tutor.ruby_fence": "Ruby Fence",
+  "block.first_tutor.ruby_fence_gate": "Ruby Fence Gate",
+  "block.first_tutor.ruby_wall": "Ruby Wall",
+  "block.first_tutor.ruby_door": "Ruby Door",
+  "block.first_tutor.ruby_trapdoor": "Ruby Trapdoor",
+
+
+
   "tooltip.first_tutor.metal_detector": "Finds Valuable Ores",
 
 

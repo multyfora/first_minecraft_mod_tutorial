@@ -1,8 +1,17 @@
-// 1.20.3	2024-04-01T01:59:29.7730067	first_tutor/Block Loot Tables
+// 1.20.3	2024-04-01T19:04:57.4664467	first_tutor/Block Loot Tables
+d6a2c57f3da953c660de3fe34fdab01fc899be61 data\first_tutor\loot_tables\blocks\ruby_button.json
+3bf96d53c69e7828e6b2467b2188e48f2048dfc9 data\first_tutor\loot_tables\blocks\ruby_fence_gate.json
 d80b9761d89a27ddd0e9e2bb5786ef1d6f041947 data\first_tutor\loot_tables\blocks\nether_ruby_ore.json
-8ef5eb7910f815385b2348747f767a1fb938bcf9 data\first_tutor\loot_tables\blocks\ruby_ore.json
 710d00ae25bac3bf88181ec87caacaaf3dcc5c2a data\first_tutor\loot_tables\blocks\ruby_block.json
-36cf32bb68dffe347f83dd983f93c78f338bba6e data\first_tutor\loot_tables\blocks\end_stone_ruby_ore.json
+5dd663b4e74eddb24e66bdc413836b9998515f85 data\first_tutor\loot_tables\blocks\ruby_stairs.json
+20d393c01aacfaf345ba32ec86656f378d768e7d data\first_tutor\loot_tables\blocks\ruby_slab.json
+9bcbd9d00492a064d4538332891c089562f35698 data\first_tutor\loot_tables\blocks\ruby_fence.json
+8ef5eb7910f815385b2348747f767a1fb938bcf9 data\first_tutor\loot_tables\blocks\ruby_ore.json
+923ccc5aca402920ddc8a5f7e4939557a50b8104 data\first_tutor\loot_tables\blocks\ruby_pressure_plate.json
 15f0d59123404b53a58fac84221f48969782cbfa data\first_tutor\loot_tables\blocks\sound_block.json
+36cf32bb68dffe347f83dd983f93c78f338bba6e data\first_tutor\loot_tables\blocks\end_stone_ruby_ore.json
 9274c725345f80d500011d90bb998c742db6f9a7 data\first_tutor\loot_tables\blocks\raw_ruby_block.json
+13152d0f48c393c8c13d77c25303463f8b7b73f4 data\first_tutor\loot_tables\blocks\ruby_trapdoor.json
+4f903ef24148afca96b0b3f5c6b4ed63555b779b data\first_tutor\loot_tables\blocks\ruby_door.json
+1b6c6544c2a27415e941a6c51f8c347ccce09a11 data\first_tutor\loot_tables\blocks\ruby_wall.json
 55f229679834b303c103279a9cab1874e1c3089c data\first_tutor\loot_tables\blocks\deepslate_ruby_ore.json

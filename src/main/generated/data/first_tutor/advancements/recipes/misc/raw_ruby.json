@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_ruby": {
+    "has_raw_ruby": {
       "conditions": {
         "items": [
           {
             "items": [
-              "first_tutor:ruby"
+              "first_tutor:raw_ruby"
             ]
           }
         ]
@@ -23,7 +23,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_ruby"
+      "has_raw_ruby"
     ]
   ],
   "rewards": {
