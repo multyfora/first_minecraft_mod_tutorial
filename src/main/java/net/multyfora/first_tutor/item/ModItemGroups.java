@@ -27,6 +27,14 @@ public class ModItemGroups {
 
                         entries.add(ModItems.COOL_ITEM);
 
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_HOE);
+
+
+
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
