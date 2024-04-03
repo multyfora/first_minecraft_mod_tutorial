@@ -8,6 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.multyfora.first_tutor.FirstTutor;
+import net.multyfora.first_tutor.entity.ModEntities;
 import net.multyfora.first_tutor.item.custom.CoolItem;
 import net.multyfora.first_tutor.item.custom.MetalDetectorItem;
 
@@ -41,6 +42,10 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS,new FabricItemSettings()));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS,new FabricItemSettings()));
+
+
+    public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
+            new SpawnEggItem(ModEntities.PORCUPINE,0xa86518,0x3b260f, new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
