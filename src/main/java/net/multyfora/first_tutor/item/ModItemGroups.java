@@ -58,6 +58,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_FENCE_GATE);
                         entries.add(ModBlocks.RUBY_WALL);
 
+                        entries.add(ModBlocks.GEM_POLISHING_STATION);
+                        entries.add(ModBlocks.PARTICLE_ACCELERATOR);
+
 
                     }).build());
 

@@ -39,6 +39,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.RUBY_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.RUBY_TRAPDOOR);
 
+        blockStateModelGenerator.registerSimpleState(ModBlocks.GEM_POLISHING_STATION);
+
+        blockStateModelGenerator.registerSimpleState(ModBlocks.PARTICLE_ACCELERATOR);
+
     }
 
     @Override

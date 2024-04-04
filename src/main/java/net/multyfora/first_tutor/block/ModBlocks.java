@@ -3,7 +3,6 @@ package net.multyfora.first_tutor.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
-import net.minecraft.client.sound.Sound;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -12,6 +11,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.multyfora.first_tutor.FirstTutor;
+import net.multyfora.first_tutor.block.custom.GemPolishingStationBlock;
+import net.multyfora.first_tutor.block.custom.ParticleAcceleratorBlock;
 import net.multyfora.first_tutor.block.custom.SoundBlock;
 
 public class ModBlocks {
@@ -53,6 +54,16 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
          public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    public static final Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+        public static final Block PARTICLE_ACCELERATOR = registerBlock("particle_accelerator",
+            new ParticleAcceleratorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+
+
+
 
 
     private static Block registerBlock(String name, Block block){
