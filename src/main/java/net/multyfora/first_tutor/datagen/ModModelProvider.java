@@ -2,12 +2,12 @@ package net.multyfora.first_tutor.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Model;
-import net.minecraft.data.client.Models;
+import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.texture.TextureManager;
+import net.minecraft.data.client.*;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.util.Identifier;
+import net.multyfora.first_tutor.FirstTutor;
 import net.multyfora.first_tutor.block.ModBlocks;
 import net.multyfora.first_tutor.item.ModItems;
 
@@ -41,8 +41,13 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleState(ModBlocks.GEM_POLISHING_STATION);
 
-        blockStateModelGenerator.registerSimpleState(ModBlocks.PARTICLE_ACCELERATOR);
+//        blockStateModelGenerator.registerSimpleState(ModBlocks.PARTICLE_ACCELERATOR);
 
+
+
+//        blockStateModelGenerator.blockStateCollector
+//                .accept(VariantsBlockStateSupplier.create(ModBlocks.PARTICLE_ACCELERATOR));
+//                        .coordinate(BlockStateModelGenerator.createNorthDefaultHorizontalRotationStates()));
     }
 
     @Override
@@ -67,6 +72,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.PORCUPINE_SPAWN_EGG,
                 new Model(Optional.of(new Identifier("item/template_spawn_egg")),Optional.empty()));
+
 
 
     }

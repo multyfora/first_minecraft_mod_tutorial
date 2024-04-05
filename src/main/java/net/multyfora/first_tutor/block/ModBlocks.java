@@ -59,7 +59,7 @@ public class ModBlocks {
             new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static final Block PARTICLE_ACCELERATOR = registerBlock("particle_accelerator",
-            new ParticleAcceleratorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+            new ParticleAcceleratorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque().luminance(ParticleAcceleratorBlock.createLightLevelFromLitBlockState(10))));
 
 
 

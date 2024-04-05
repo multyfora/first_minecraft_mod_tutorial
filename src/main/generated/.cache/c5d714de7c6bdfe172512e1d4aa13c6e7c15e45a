@@ -1,4 +1,4 @@
-// 1.20.3	2024-04-05T00:31:51.6850542	first_tutor/Block Loot Tables
+// 1.20.3	2024-04-05T14:07:51.0354442	first_tutor/Block Loot Tables
 d6a2c57f3da953c660de3fe34fdab01fc899be61 data\first_tutor\loot_tables\blocks\ruby_button.json
 3bf96d53c69e7828e6b2467b2188e48f2048dfc9 data\first_tutor\loot_tables\blocks\ruby_fence_gate.json
 d80b9761d89a27ddd0e9e2bb5786ef1d6f041947 data\first_tutor\loot_tables\blocks\nether_ruby_ore.json
@@ -12,6 +12,6 @@ d80b9761d89a27ddd0e9e2bb5786ef1d6f041947 data\first_tutor\loot_tables\blocks\net
 36cf32bb68dffe347f83dd983f93c78f338bba6e data\first_tutor\loot_tables\blocks\end_stone_ruby_ore.json
 13152d0f48c393c8c13d77c25303463f8b7b73f4 data\first_tutor\loot_tables\blocks\ruby_trapdoor.json
 9274c725345f80d500011d90bb998c742db6f9a7 data\first_tutor\loot_tables\blocks\raw_ruby_block.json
-4f903ef24148afca96b0b3f5c6b4ed63555b779b data\first_tutor\loot_tables\blocks\ruby_door.json
 1b6c6544c2a27415e941a6c51f8c347ccce09a11 data\first_tutor\loot_tables\blocks\ruby_wall.json
+4f903ef24148afca96b0b3f5c6b4ed63555b779b data\first_tutor\loot_tables\blocks\ruby_door.json
 55f229679834b303c103279a9cab1874e1c3089c data\first_tutor\loot_tables\blocks\deepslate_ruby_ore.json
