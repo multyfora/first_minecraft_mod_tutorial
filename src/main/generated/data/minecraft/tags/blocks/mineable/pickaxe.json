@@ -7,6 +7,7 @@
     "first_tutor:nether_ruby_ore",
     "first_tutor:end_stone_ruby_ore",
     "first_tutor:deepslate_ruby_ore",
-    "first_tutor:sound_block"
+    "first_tutor:sound_block",
+    "first_tutor:particle_accelerator"
   ]
 }

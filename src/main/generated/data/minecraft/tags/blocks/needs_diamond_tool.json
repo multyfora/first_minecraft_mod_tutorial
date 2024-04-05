@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "first_tutor:deepslate_ruby_ore"
+    "first_tutor:deepslate_ruby_ore",
+    "first_tutor:particle_accelerator"
   ]
 }

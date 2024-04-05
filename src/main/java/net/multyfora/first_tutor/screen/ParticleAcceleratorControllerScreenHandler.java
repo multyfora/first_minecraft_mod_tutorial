@@ -6,55 +6,32 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.network.PacketByteBuf;
-import net.minecraft.screen.ArrayPropertyDelegate;
-import net.minecraft.screen.PropertyDelegate;
 import net.minecraft.screen.ScreenHandler;
-import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.screen.slot.Slot;
-import net.multyfora.first_tutor.block.entity.GemPolishingStationBlockEntity;
-import org.jetbrains.annotations.Nullable;
+import net.multyfora.first_tutor.block.entity.ParticleAcceleratorControllerBlockEntity;
 
-public class GemPolishingScreenHandler extends ScreenHandler {
+public class ParticleAcceleratorControllerScreenHandler extends ScreenHandler {
+
     private final Inventory inventory;
-    private final PropertyDelegate propertyDelegate;
-    public final GemPolishingStationBlockEntity blockEntity;
+    public final ParticleAcceleratorControllerBlockEntity blockEntity;
 
-    public GemPolishingScreenHandler(int syncId, PlayerInventory inventory, PacketByteBuf buf){
-        this(syncId, inventory, inventory.player.getWorld().getBlockEntity(buf.readBlockPos()),
-                new ArrayPropertyDelegate(2));
+    public ParticleAcceleratorControllerScreenHandler(int syncId, PlayerInventory inventory, PacketByteBuf buf){
+        this(syncId, inventory, inventory.player.getWorld().getBlockEntity(buf.readBlockPos()));
     }
 
-
-    public GemPolishingScreenHandler(int syncId, PlayerInventory playerInventory, BlockEntity blockEntity, PropertyDelegate arrayPropertyDelegate) {
-        super(ModScreenHandlers.GEM_POLISHING_SCREEN_HANDLER,syncId);
-        checkSize(((Inventory) blockEntity),2);
+    public ParticleAcceleratorControllerScreenHandler(int syncId, PlayerInventory playerInventory, BlockEntity blockEntity) {
+        super(ModScreenHandlers.PARTICLE_ACCELERATOR_SCREEN_HANDLER,syncId);
+        checkSize(((Inventory) blockEntity),1);
         this.inventory = ((Inventory) blockEntity);
         playerInventory.onOpen(playerInventory.player);
-        this.propertyDelegate = arrayPropertyDelegate;
-        this.blockEntity = ((GemPolishingStationBlockEntity) blockEntity);
+        this.blockEntity = ((ParticleAcceleratorControllerBlockEntity) blockEntity);
 
-        this.addSlot(new Slot(inventory,0,80,11));
-        this.addSlot(new Slot(inventory,1,80,59));
+        this.addSlot(new Slot(inventory,0,80,34));
 
 
         addPlayerInventory(playerInventory);
         addPlayerHotbar(playerInventory);
-
-        addProperties(arrayPropertyDelegate);
     }
-
-    public boolean isCrafting(){
-        return propertyDelegate.get(0) > 0;
-    }
-
-    public int getScaledProgress() {
-        int progress = this.propertyDelegate.get(0);
-        int maxProgress = this.propertyDelegate.get(1);  // Max Progress
-        int progressArrowSize = 26; // This is the width in pixels of your arrow
-
-        return maxProgress != 0 && progress != 0 ? progress * progressArrowSize / maxProgress : 0;
-    }
-
 
     @Override
     public ItemStack quickMove(PlayerEntity player, int invSlot) {
@@ -94,8 +71,6 @@ public class GemPolishingScreenHandler extends ScreenHandler {
             this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 142));
         }
     }
-
-
     @Override
     public boolean canUse(PlayerEntity player) {
         return this.inventory.canPlayerUse(player);

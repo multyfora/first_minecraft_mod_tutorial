@@ -15,6 +15,7 @@ import net.multyfora.first_tutor.entity.client.PorcupineModel;
 import net.multyfora.first_tutor.entity.client.PorcupineRenderer;
 import net.multyfora.first_tutor.screen.GemPolishingScreen;
 import net.multyfora.first_tutor.screen.ModScreenHandlers;
+import net.multyfora.first_tutor.screen.ParticleAcceleratorControllerScreen;
 
 public class FirstTutorClient implements ClientModInitializer {
 
@@ -28,5 +29,6 @@ public class FirstTutorClient implements ClientModInitializer {
         EntityRendererRegistry.register(ModEntities.PORCUPINE, PorcupineRenderer::new);
 
         HandledScreens.register(ModScreenHandlers.GEM_POLISHING_SCREEN_HANDLER, GemPolishingScreen::new);
+        HandledScreens.register(ModScreenHandlers.PARTICLE_ACCELERATOR_SCREEN_HANDLER, ParticleAcceleratorControllerScreen::new);
     }
 }

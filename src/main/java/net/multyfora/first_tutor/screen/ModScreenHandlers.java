@@ -12,6 +12,10 @@ public class ModScreenHandlers {
             Registry.register(Registries.SCREEN_HANDLER, new Identifier(FirstTutor.MOD_ID, "gem_polishing"),
                     new ExtendedScreenHandlerType<>(GemPolishingScreenHandler::new));
 
+    public static final ScreenHandlerType<ParticleAcceleratorControllerScreenHandler> PARTICLE_ACCELERATOR_SCREEN_HANDLER =
+            Registry.register(Registries.SCREEN_HANDLER, new Identifier(FirstTutor.MOD_ID, "particle_accelerator"),
+                    new ExtendedScreenHandlerType<>(ParticleAcceleratorControllerScreenHandler::new));
+
     public static void registerScreenHandlers(){
         FirstTutor.LOGGER.info("Registering screen handlers for " + FirstTutor.MOD_ID);
     }

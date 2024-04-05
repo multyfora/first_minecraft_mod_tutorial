@@ -28,6 +28,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_BLOCK);
         addDrop(ModBlocks.RAW_RUBY_BLOCK);
         addDrop(ModBlocks.SOUND_BLOCK);
+        addDrop(ModBlocks.PARTICLE_ACCELERATOR);
 
 
         addDrop(ModBlocks.RUBY_ORE, copperLikeOreDrops(ModBlocks.RUBY_ORE, ModItems.RAW_RUBY));

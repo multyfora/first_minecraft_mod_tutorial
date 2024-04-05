@@ -15,6 +15,10 @@ public class ModBlockEntities {
             Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(FirstTutor.MOD_ID,"gem_polishing_be"),
                     FabricBlockEntityTypeBuilder.create(GemPolishingStationBlockEntity::new,
                             ModBlocks.GEM_POLISHING_STATION).build());
+    public static final BlockEntityType<ParticleAcceleratorControllerBlockEntity> PARTICLE_ACCELERATOR_BLOCK_ENTITY =
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(FirstTutor.MOD_ID,"particle_accelerator_be"),
+                    FabricBlockEntityTypeBuilder.create(ParticleAcceleratorControllerBlockEntity::new,
+                            ModBlocks.PARTICLE_ACCELERATOR).build());
 
 
     public static void registerBlockEntities(){

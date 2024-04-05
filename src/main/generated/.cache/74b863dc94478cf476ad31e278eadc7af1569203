@@ -1,10 +1,10 @@
-// 1.20.3	2024-04-05T14:07:51.0384357	first_tutor/Tags for minecraft:block
+// 1.20.3	2024-04-06T00:00:52.5796201	first_tutor/Tags for minecraft:block
 a3fd5bc1c82f2424beb0e6ca5a823a81a269869f data\fabric\tags\blocks\needs_tool_level_4.json
 d3e601f05006399bba8f15bc752834fc3226e366 data\minecraft\tags\blocks\fences.json
 d45261bea1d5d9d3dd30cf64000c11ded7be5229 data\first_tutor\tags\blocks\metal_detector_detectable_blocks.json
-b5fb4b0d06bca7caa1c67b9e3fe76566eaf073df data\minecraft\tags\blocks\needs_diamond_tool.json
+3e5bbf1035e22d3a2111f6d3d874048e370038eb data\minecraft\tags\blocks\needs_diamond_tool.json
 76cf0a630635a23273823e010708162a97b3d088 data\minecraft\tags\blocks\needs_stone_tool.json
-9f8a27a0746d02d1fed7f3c96fc8dc21a006ebcc data\minecraft\tags\blocks\mineable\pickaxe.json
+caca4827f64f85fab52cfb463a42e543327af48d data\minecraft\tags\blocks\mineable\pickaxe.json
 477ec751cfed4e30c3c3af6481bcd80fd8bfc5dd data\fabric\tags\blocks\needs_tool_level_5.json
 e05a1cd58363bea2dd2b480c4355295bf0beb89f data\minecraft\tags\blocks\fence_gates.json
 4f54c086ae86046e0ec19f7aeb6560f631a62405 data\minecraft\tags\blocks\needs_iron_tool.json

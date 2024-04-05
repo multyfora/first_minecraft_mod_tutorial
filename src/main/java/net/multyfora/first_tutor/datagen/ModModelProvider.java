@@ -41,7 +41,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleState(ModBlocks.GEM_POLISHING_STATION);
 
-//        blockStateModelGenerator.registerSimpleState(ModBlocks.PARTICLE_ACCELERATOR);
 
 
 

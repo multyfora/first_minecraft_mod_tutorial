@@ -60,6 +60,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.GEM_POLISHING_STATION);
                         entries.add(ModBlocks.PARTICLE_ACCELERATOR);
+                        entries.add(ModBlocks.PARTICLE_ACCELERATOR_CONTROLLER);
 
 
                     }).build());

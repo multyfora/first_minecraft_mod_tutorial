@@ -38,5 +38,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('@', ModItems.RUBY)
                 .criterion(hasItem(ModItems.RAW_RUBY), conditionsFromItem(ModItems.RAW_RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_RUBY)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE,ModBlocks.PARTICLE_ACCELERATOR,1)
+                .pattern("idi")
+                .pattern("gdg")
+                .pattern("iii")
+                .input('i', Items.IRON_INGOT)
+                .input('d', Items.DIAMOND)
+                .input('g', Items.GOLD_INGOT)
+                .criterion(hasItem(Items.DIAMOND),conditionsFromItem(Items.DIAMOND))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PARTICLE_ACCELERATOR)));
     }
 }

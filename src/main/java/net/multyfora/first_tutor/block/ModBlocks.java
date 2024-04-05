@@ -13,6 +13,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.multyfora.first_tutor.FirstTutor;
 import net.multyfora.first_tutor.block.custom.GemPolishingStationBlock;
 import net.multyfora.first_tutor.block.custom.ParticleAcceleratorBlock;
+import net.multyfora.first_tutor.block.custom.ParticleAcceleratorControllerBlock;
 import net.multyfora.first_tutor.block.custom.SoundBlock;
 
 public class ModBlocks {
@@ -55,11 +56,15 @@ public class ModBlocks {
          public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
-    public static final Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+        public static final Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
             new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
         public static final Block PARTICLE_ACCELERATOR = registerBlock("particle_accelerator",
-            new ParticleAcceleratorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque().luminance(ParticleAcceleratorBlock.createLightLevelFromLitBlockState(10))));
+            new ParticleAcceleratorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()
+                    .luminance(ParticleAcceleratorBlock.createLightLevelFromLitBlockState(10))));
+
+        public static final Block PARTICLE_ACCELERATOR_CONTROLLER = registerBlock("particle_accelerator_controller",
+            new ParticleAcceleratorControllerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 
 
