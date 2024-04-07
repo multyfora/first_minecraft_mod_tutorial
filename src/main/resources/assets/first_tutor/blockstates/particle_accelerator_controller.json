@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "first_tutor:block/particle_accelerator_controller"
+    },
+    "facing=east": {
+      "model": "first_tutor:block/particle_accelerator_controller",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "first_tutor:block/particle_accelerator_controller"
+    },
+    "facing=south": {
+      "model": "first_tutor:block/particle_accelerator_controller",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "first_tutor:block/particle_accelerator_controller"
+    },
+    "facing=west": {
+      "model": "first_tutor:block/particle_accelerator_controller",
+      "y": 270
+    }
+  }
+}

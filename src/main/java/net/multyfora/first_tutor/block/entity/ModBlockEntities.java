@@ -18,7 +18,7 @@ public class ModBlockEntities {
     public static final BlockEntityType<ParticleAcceleratorControllerBlockEntity> PARTICLE_ACCELERATOR_BLOCK_ENTITY =
             Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(FirstTutor.MOD_ID,"particle_accelerator_be"),
                     FabricBlockEntityTypeBuilder.create(ParticleAcceleratorControllerBlockEntity::new,
-                            ModBlocks.PARTICLE_ACCELERATOR).build());
+                            ModBlocks.PARTICLE_ACCELERATOR_CONTROLLER).build());
 
 
     public static void registerBlockEntities(){
